@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Playfair", serif;;
+}
+:root{
+    --x:rgb(66,8,8)
+}
+#main{
+    background-image: url('./images/bgimage.jpg');
+    /* height: 100vh; */
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#logo{
+    width: 220px;
+    height: 100px;
+}
+ul li{
+    font-size: 20px;
+}
+#BUTTON {
+    background-color: var(--x);
+    color: white;
+}
+#BUTTON:hover{
+    background-color: white;
+    color: var(--x);
+    border-color: var(--x);
+}
+li i{
+    color: rgb(173, 167, 167);
+}
+#backg{
+    background-color: rgba(0, 0, 0, 0.288);
+    /* height: 100vh; */
+    width: 100%;
+}
+#wlcm{
+    color: white;
+    margin-top: 22%;
+    margin-left: 5%;
+}
+
+#wlcm h4{
+    font-size: 50px;
+}
+
+#wlcm h1{
+    font-size: 120px;
+}
+@media(max-width:600px){
+    #welcome h4{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 50px;
+    }
+}
+@media(max-width:992px){
+    .nav-item i{
+        display: none;
+    }
+}
+#wlcm button{
+    border-color: white;
+    color: white;
+}
+#work{
+    background-image: url('https://t4.ftcdn.net/jpg/04/15/42/27/360_F_415422702_Rkojk31mAW6my2wdAZnWL8jtvY1aCErU.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 8%;
+    padding-top: 6%;
+}
+#viwbtn1:hover , #viwbtn2:hover , #viwbtn3:hover, #viwbtn4:hover, #viwbtn5:hover{
+    background-color: var(--x);
+    color: white;
+}
+ 
+    #viwbtn1 , #viwbtn2 , #viwbtn3 , #viwbtn4 ,#viwbtn5{
+    background-color: white;
+    color: var(--x);
+    border-color: var(--x);
+}
+
+
+/* about */
+#about{
+    background-color: rgb(192, 192, 192);
+   padding-top: 4%;
+}
+#about h1{
+    color: var(--x);
+}
+
+#hr{
+    background-color: var(--x);
+    width: 200px;
+    height: 7px;
+
+}
+#about p{
+    text-align: justify;
+}
+#aboutDiv{
+    border: 7px solid var(--x);
+    width: 90%;
+    height: 430px;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+#div1{
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 50%;
+    height: 6rem;
+    color: white;
+}
+.div2{
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 70%;
+    height: 5rem;
+    color: white;
+}
